@@ -1,25 +1,43 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
+import { useEffect, useState } from 'react';
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  const [jawaban, setJawaban] = useState("");
+  const [showBenar, setShowBenar] = useState(false)
+  
+  useEffect(() => {
+    jawaban == "pinguin" || jawaban == "penguin" || jawaban == "pingin" ? setShowBenar(true) : setShowBenar(false);
+  }, [jawaban])
+
+  return(
+    <div className="Parentbox">
+      <div className='Pertanyaan'>Hewan yang suka ngidam??</div>
+      
+      {
+        showBenar ? (
+          <div className='Terjawab'> 
+            <h5>Yeeey Anda Pintaaar Nebak Kuis</h5>
+            <p>Tapi kayaknya kamu bodoh dalam hal percintaan</p>
+          </div>
+        ) : (
+          "Ayo Terus jawab Goblok. Sampe bener"
+        )
+      }
+
+      <div className='Jawaban'>
+        <input 
+        type="text"
+        className='jawaban'
+        placeholder='Jawab dong'
+        onChange={(typing) => setJawaban(typing.target.value)}
+        />
+        
+          
+      </div>
     </div>
   );
+  
 }
 
 export default App;
