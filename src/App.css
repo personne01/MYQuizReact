@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+.Terjawab{
+  font-size: large;
+}
+.Pertanyaan{
+  color:white;
+  font-size: 40px;
+}
+
+.jawaban{
+  width: 500px;
+  height: 50px;
+  border-radius: 25px;
+  text-align: center;
+  color: #101129;
+  font-size: large;
+}
