@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/MYQuizReact/static/css/main.e11f8d54.css",
+    "main.js": "/MYQuizReact/static/js/main.c8a38642.js",
+    "static/js/787.28cb0dcd.chunk.js": "/MYQuizReact/static/js/787.28cb0dcd.chunk.js",
+    "static/media/tanya-illustration.png": "/MYQuizReact/static/media/tanya-illustration.794069adc1190374f26d.png",
+    "static/media/jawab-benar-illustration.png": "/MYQuizReact/static/media/jawab-benar-illustration.7e33f475fe44e9d7101d.png",
+    "index.html": "/MYQuizReact/index.html",
+    "main.e11f8d54.css.map": "/MYQuizReact/static/css/main.e11f8d54.css.map",
+    "main.c8a38642.js.map": "/MYQuizReact/static/js/main.c8a38642.js.map",
+    "787.28cb0dcd.chunk.js.map": "/MYQuizReact/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e11f8d54.css",
+    "static/js/main.c8a38642.js"
+  ]
+}
